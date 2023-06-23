@@ -1,0 +1,48 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573105059541@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0CB76CBC85E27FDC7F9',
+    participant: undefined
+  },
+  messageTimestamp: 1687483044,
+  pushName: 'iNokia1100',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '573105059541'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573105059541@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB030B35A77E5E301D5BE',
+    participant: undefined
+  },
+  messageTimestamp: 1687483062,
+  pushName: 'iNokia1100',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '3',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '573105059541'
+}
