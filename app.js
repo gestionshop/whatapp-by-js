@@ -64,29 +64,23 @@ const flowComercial = addKeyword(['1'])
     )
     .addAnswer(`¡Gracias! En breve serás atendido por uno de nuestros asesores. ¿Hay algo más en lo que pueda ayudarte?`)
 
-const flowDiscord = addKeyword(['discord']).addAnswer(
-    ['🤪 Únete al discord', 'https://link.codigoencasa.com/DISCORD', '\n*2* Para siguiente paso.'],
-    null,
-    null,
-    [flowSecundario]
-)
-
 const flowPrincipal = addKeyword(
     [
         'hola','menu','inicio', 'ole', 'alo', 'ola', 'buenos dias', 'buenas tardes', 'hola, buenos dias', 'hola buenas tardes', 'buenas', 'hola como estan'
 ])
-    .addAnswer('👋🏼 Hola bienvenid@ a *GestionShop*')
+    .addAnswer('👋🏼 Hola bienvenid@ a *GestionShop*\n', 'Soy GestiBot 🔮 tu asesor virtual')
     .addAnswer(
         [
             'Te comparto las siguientes opciones de atención \n',
             '👉 *1* Para asesoría comercial',
             '👉 *2* Para atención en el área contable',
-            '👉 *3* Para atención al cliente (soporte)',
+            '👉 *3* Para atención al cliente (soporte)\n',
+            'Escribe el numero de la opción seleccionada'
             // '👉 *discord* unirte al discord',
         ],
         null,
         null,
-        [flowContable, flowComercial, flowSoporte, flowDiscord, flowBotones]
+        [flowContable, flowComercial, flowSoporte, flowBotones]
     )
 
 
