@@ -16,8 +16,6 @@ const JsonFileAdapter = require('@bot-whatsapp/database/json')
  * Primero declaras los submenus 1.1 y 2.1, luego el 1 y 2 y al final el principal.
  */
 
-const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
-
 const flowContableHijo = addKeyword('1').addAnswer(
     [
         '📄 Adjunta el soporte de pago ó enviar al correo soporte@gestionshop.co',
@@ -62,13 +60,13 @@ const flowComercial = addKeyword(['1'])
             console.log('ctx', ctx) // ctx es el contexto del mensaje, puedo sacar lo que escribe y el numero de cel y el alias del whatsapp
          }
     )
-    .addAnswer(`¡Gracias! En breve serás atendido por uno de nuestros asesores. ¿Hay algo más en lo que pueda ayudarte?`)
+    .addAnswer([`¡Gracias! En breve serás atendido por uno de nuestros asesores. ¿Hay algo más en lo que pueda ayudarte?`,'Te invito a saber más de nosotros https://gestionshop.co'])
 
 const flowPrincipal = addKeyword(
     [
-        'hola','menu','inicio', 'ole', 'alo', 'ola', 'buenos dias', 'buenas tardes', 'hola, buenos dias', 'hola buenas tardes', 'buenas', 'hola como estan'
+        'hola','menu','inicio', 'ole', 'alo', 'ola', 'buenos dias', 'buenas tardes', 'hola, buenos dias', 'hola buenas tardes', 'buenas', 'hola como estan', 'hila'
 ])
-    .addAnswer('👋🏼 Hola bienvenid@ a *GestionShop*\n', 'Soy GestiBot 🔮 tu asesor virtual')
+    .addAnswer(['👋🏼 Hola bienvenid@ a *GestionShop*\n', 'Soy GestiBot 🔮 tu asesor virtual'])
     .addAnswer(
         [
             'Te comparto las siguientes opciones de atención \n',
@@ -80,7 +78,7 @@ const flowPrincipal = addKeyword(
         ],
         null,
         null,
-        [flowContable, flowComercial, flowSoporte, flowBotones]
+        [flowContable, flowComercial, flowSoporte]
     )
 
 
