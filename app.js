@@ -60,7 +60,7 @@ const flowComercial = addKeyword(['1'])
             console.log('ctx', ctx) // ctx es el contexto del mensaje, puedo sacar lo que escribe y el numero de cel y el alias del whatsapp
          }
     )
-    .addAnswer([`¡Gracias! En breve serás atendido por uno de nuestros asesores. ¿Hay algo más en lo que pueda ayudarte?`,'Te invito a saber más de nosotros https://gestionshop.co'])
+    .addAnswer([`¡Gracias! En breve serás atendido por uno de nuestros asesores. ¿Hay algo más en lo que pueda ayudarte?`,'\nTe invito a saber más de nosotros https://gestionshop.co'])
 
 const flowPrincipal = addKeyword(
     [
