@@ -82,6 +82,7 @@ const flowComercial = addKeyword(["1"])
   .addAnswer([
     `¡Gracias! En breve serás atendido por uno de nuestros asesores. ¿Hay algo más en lo que pueda ayudarte?`,
     "\nTe invito a conocer más de nosotros https://gestionshop.co",
+    "\nSiguenos en instagram  https://hab.me/eBX4L8I",
   ]);
 
 const flowPrincipal = addKeyword([
