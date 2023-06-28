@@ -107,7 +107,7 @@ const flowPrincipal = addKeyword([
   ])
   .addAnswer(
     [
-      "Para poder ayudarte, escoge una de la siguientes opciones de atencion escribiendo el numero\n",
+      "Escoge una de la siguientes opciones de atencion escribiendo el numero\n",
       "1️⃣ Para asesoría comercial",
       "2️⃣ Para atención en el área contable",
       "3️⃣ Para atención al cliente (soporte)\n",
