@@ -1,16 +1,16 @@
 [
   {
-    "ref": "345d67bc-e706-43a5-af04-a8a873ec75c1",
-    "keyword": "011fb7d2ec797e64306690c11454d043",
+    "ref": "2366c2dd-9651-47de-8347-7b6fa5b003ea",
+    "keyword": "ad3c3778f7d2c163b6615aec3bb3851b",
     "answer": "hola",
     "options": {},
     "from": "573105059541",
     "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_6013879d-a823-486d-8ea0-9b0682038edf",
-    "keyword": "key_b338af0e-661a-462d-b41e-f6a26ccbe752",
-    "answer": "👋🏼 Hola bienvenid@ a *GestionShop*",
+    "ref": "ans_1a23b617-bbd3-4c1c-8c05-2f384559303a",
+    "keyword": "key_c207bc8d-3068-4a91-8c6b-c3b32a63d739",
+    "answer": "👋🏼 Hola bienvenid@ a *GestionShop*\n\nSoy GestiBot 🔮 tu asesor virtual",
     "options": {
       "media": null,
       "buttons": [],
@@ -21,13 +21,13 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "9c4c7adbd047be94ed8508f19528f219",
+    "refSerialize": "88fe081a804e2a1fffbe9380dcac3896",
     "from": "573105059541"
   },
   {
-    "ref": "ans_a4b56589-034d-4f17-835d-d43d17b47284",
-    "keyword": "ans_6013879d-a823-486d-8ea0-9b0682038edf",
-    "answer": "Te comparto las siguientes opciones de atención \n\n👉 *1* Para asesoría comercial\n👉 *2* Para atención en el área contable\n👉 *3* Para atención al cliente (soporte)",
+    "ref": "ans_c6cd40b7-c9d2-4f6f-897d-45c23a2b056d",
+    "keyword": "ans_1a23b617-bbd3-4c1c-8c05-2f384559303a",
+    "answer": "Te comparto las siguientes opciones de atención \n\n👉 *1* Para asesoría comercial\n👉 *2* Para atención en el área contable\n👉 *3* Para atención al cliente (soporte)\n\nEscribe el numero de la opción seleccionada",
     "options": {
       "media": null,
       "buttons": [],
@@ -36,7 +36,7 @@
       "delay": 0,
       "nested": [
         {
-          "ref": "key_1de0e690-c35e-4402-b36e-608b70c87d05",
+          "ref": "key_e9edeeb6-586b-432c-8e79-a7e2b7a8446e",
           "keyword": "2",
           "options": {
             "sensitive": false,
@@ -45,8 +45,8 @@
           "refSerialize": "900c9aa0094bfcca4a316ec66236e2fc"
         },
         {
-          "ref": "ans_08aeaa77-e3aa-4507-be00-a60180ad9f12",
-          "keyword": "key_1de0e690-c35e-4402-b36e-608b70c87d05",
+          "ref": "ans_9fb1e6d9-9f90-4de8-a327-e05f0b3f79df",
+          "keyword": "key_e9edeeb6-586b-432c-8e79-a7e2b7a8446e",
           "answer": "👉 *1* Para enviar soporte de pago\n👉 *2* Para solicitar reenvio de factura",
           "options": {
             "media": null,
@@ -56,7 +56,7 @@
             "delay": 0,
             "nested": [
               {
-                "ref": "key_466aa0e0-4072-4fed-a6aa-092ff51c4def",
+                "ref": "key_4df8ce4d-a351-4a9e-a771-b64fdd321d48",
                 "keyword": "1",
                 "options": {
                   "sensitive": false,
@@ -65,8 +65,8 @@
                 "refSerialize": "065e0005da6e5c278a53691e53b48955"
               },
               {
-                "ref": "ans_b2eb8456-eca0-4593-b950-4c74ee615ff6",
-                "keyword": "key_466aa0e0-4072-4fed-a6aa-092ff51c4def",
+                "ref": "ans_5dd1197b-7f1e-4385-ac2e-aa24bca7a3e7",
+                "keyword": "key_4df8ce4d-a351-4a9e-a771-b64fdd321d48",
                 "answer": "📄 Adjunta el soporte de pago ó enviar al correo soporte@gestionshop.co",
                 "options": {
                   "media": null,
@@ -78,10 +78,10 @@
                   "keyword": {},
                   "callback": false
                 },
-                "refSerialize": "860d379bab9272fd138b805fe99895c4"
+                "refSerialize": "ec68c6f205ffec736aee44977e482a14"
               },
               {
-                "ref": "key_451f07f4-9262-47ff-b01e-fff204071b97",
+                "ref": "key_18fb328c-4c18-4336-8ba6-b46937f45d78",
                 "keyword": "2",
                 "options": {
                   "sensitive": false,
@@ -90,8 +90,8 @@
                 "refSerialize": "900c9aa0094bfcca4a316ec66236e2fc"
               },
               {
-                "ref": "ans_91c78168-f830-4504-baf6-e2a3dd64d4a0",
-                "keyword": "key_451f07f4-9262-47ff-b01e-fff204071b97",
+                "ref": "ans_fef84494-dbb7-46d1-9b58-98de8bb7c361",
+                "keyword": "key_18fb328c-4c18-4336-8ba6-b46937f45d78",
                 "answer": "La factura se enviará al correo registrado o puedes consultarla en el programa, accediendo a *Consultar facturas de GestionShop* en la esquina superior derecha",
                 "options": {
                   "media": "https://res.cloudinary.com/dmeolkzir/image/upload/v1686683865/chatBot/Captura_de_pantalla_2023-06-13_a_la_s_2.03.32_p.m._gzsval.png",
@@ -103,11 +103,11 @@
                   "keyword": {},
                   "callback": false
                 },
-                "refSerialize": "a7ed9a5650898800a05fbd1c501275ab"
+                "refSerialize": "60408aa02b19a91b0c5d243764a8bbf7"
               },
               {
-                "ref": "ans_3a25d713-cb8f-422e-b183-520d7448d722",
-                "keyword": "ans_91c78168-f830-4504-baf6-e2a3dd64d4a0",
+                "ref": "ans_639dad7a-35b3-42b4-b6c5-dd6c457a9b3f",
+                "keyword": "ans_fef84494-dbb7-46d1-9b58-98de8bb7c361",
                 "answer": "*Importante:* Debes verificar si tu usuario tiene el permiso para ver las facturas de GestionShop",
                 "options": {
                   "media": null,
@@ -119,16 +119,16 @@
                   "keyword": {},
                   "callback": false
                 },
-                "refSerialize": "5efbdb0ad89fb88293be57a82252f8be"
+                "refSerialize": "8d8671e0b39d55504e9ba86d6d461422"
               }
             ],
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "a55ab004ceb37351ffdee6d82e08110d"
+          "refSerialize": "211209546603d7524ccbbf0196d49981"
         },
         {
-          "ref": "key_4eb9e7e3-f4ed-4cac-8fb2-8d12655f71cb",
+          "ref": "key_22894a51-ffd3-4618-ac36-e129974ca710",
           "keyword": [
             "1"
           ],
@@ -139,8 +139,8 @@
           "refSerialize": "e0b2cd1acac633ea641e2d526690d369"
         },
         {
-          "ref": "ans_e849f5cf-8e8d-4b2e-8aae-2c92922e6103",
-          "keyword": "key_4eb9e7e3-f4ed-4cac-8fb2-8d12655f71cb",
+          "ref": "ans_96e7335c-2711-46ae-ae99-9440864f5a9d",
+          "keyword": "key_22894a51-ffd3-4618-ac36-e129974ca710",
           "answer": "🚀 ¡Hola! Gracias por tu interés en nuestros servicios. Para brindarte una mejor atención, necesitamos algunos datos. ¿Podrías proporcionarme tu nombre y correo electrónico, por favor?",
           "options": {
             "media": null,
@@ -152,12 +152,12 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "4d772dfc620d50581d034647f23b7261"
+          "refSerialize": "e6ab204d9ad14f39b33e487972224fa3"
         },
         {
-          "ref": "ans_b317db89-dd1e-41b6-82f1-7e680451725c",
-          "keyword": "ans_e849f5cf-8e8d-4b2e-8aae-2c92922e6103",
-          "answer": "¡Gracias! En breve serás atendido por uno de nuestros asesores. ¿Hay algo más en lo que pueda ayudarte?",
+          "ref": "ans_328e825b-4a63-41c8-89ad-ab6b1714d299",
+          "keyword": "ans_96e7335c-2711-46ae-ae99-9440864f5a9d",
+          "answer": "¡Gracias! En breve serás atendido por uno de nuestros asesores. ¿Hay algo más en lo que pueda ayudarte?\n\nTe invito a saber más de nosotros https://gestionshop.co",
           "options": {
             "media": null,
             "buttons": [],
@@ -168,10 +168,10 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "c01b9917c8a1fa3bf156d17b9253751d"
+          "refSerialize": "60e13540402a6a5327ae8f7b7778b164"
         },
         {
-          "ref": "key_f963e541-2fe5-47a0-9049-6e0c4de46606",
+          "ref": "key_71bafe56-a6c4-4418-8ba0-65f83ba6d959",
           "keyword": [
             "3"
           ],
@@ -182,8 +182,8 @@
           "refSerialize": "f527e0d58165f42aac80200dd9e494bc"
         },
         {
-          "ref": "ans_6864f7a9-1ae8-49f4-9971-85eaa221ff22",
-          "keyword": "key_f963e541-2fe5-47a0-9049-6e0c4de46606",
+          "ref": "ans_c573659d-4689-4dd2-a658-63f67c049790",
+          "keyword": "key_71bafe56-a6c4-4418-8ba0-65f83ba6d959",
           "answer": "Aquí encontrarás respuestas a tus preguntas",
           "options": {
             "media": null,
@@ -195,14 +195,14 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "e40ef3ced112fd70e14524c79df2aa47"
+          "refSerialize": "f8026786d2a84fb2ead1f58ab4366d76"
         },
         {
-          "ref": "ans_b0316db9-fc2d-4682-8d3a-48bc7e1a0a91",
-          "keyword": "ans_6864f7a9-1ae8-49f4-9971-85eaa221ff22",
+          "ref": "ans_e3d0c8ca-0b27-4a1a-a48d-899967c8e9d7",
+          "keyword": "ans_c573659d-4689-4dd2-a658-63f67c049790",
           "answer": "Consulta nuestro manual https://ayuda.gestionshop.co",
           "options": {
-            "media": "https://www.google.com/maps/place/Compraventas+PACTEMOS/@10.444254,-75.517911,14z/data=!4m6!3m5!1s0x8ef625b33b247109:0x8cc7410b2c1c38f8!8m2!3d10.4442544!4d-75.5179115!16s%2Fg%2F11rrvshssj?hl=es-419&entry=ttu",
+            "media": "https://res.cloudinary.com/dmeolkzir/image/upload/v1686683865/chatBot/Captura_de_pantalla_2023-06-13_a_la_s_2.07.20_p.m._ce1ytj.png",
             "buttons": [],
             "capture": false,
             "child": null,
@@ -211,11 +211,11 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "b271cad8511b7d91ca99edb3de497ef6"
+          "refSerialize": "ec438b0642fd3ec2131b64305d5ee668"
         },
         {
-          "ref": "ans_66404516-c8fb-46ce-9ee9-be5f2355f540",
-          "keyword": "ans_b0316db9-fc2d-4682-8d3a-48bc7e1a0a91",
+          "ref": "ans_d1fce1cb-95b8-41e6-b1c8-d969a5f95ad4",
+          "keyword": "ans_e3d0c8ca-0b27-4a1a-a48d-899967c8e9d7",
           "answer": "Para recibir asistencia, te recomendamos utilizar el chat de soporte ubicado en la parte inferior derecha de nuestro sistema GestionShop. Puedes acceder a él y realizar tus consultas para obtener ayuda de nuestro equipo",
           "options": {
             "media": "https://res.cloudinary.com/dmeolkzir/image/upload/v1686683855/chatBot/Soporte_eykbin.png",
@@ -227,27 +227,11 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "cc3ed9795a908ea18a8d0dc7b0fbc48a"
+          "refSerialize": "6caf27b07c85bad3537e745415c706d7"
         },
         {
-          "ref": "ans_0cec32b4-110a-4a00-8b06-4fba4713357c",
-          "keyword": "ans_66404516-c8fb-46ce-9ee9-be5f2355f540",
-          "answer": "\n Sucurasal https://www.google.com/maps/place/Compraventas+PACTEMOS/@10.444254,-75.517911,14z/data=!4m6!3m5!1s0x8ef625b33b247109:0x8cc7410b2c1c38f8!8m2!3d10.4442544!4d-75.5179115!16s%2Fg%2F11rrvshssj?hl=es-419&entry=ttu",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "26a14f95813f41cbe0c9f3b1419c6a78"
-        },
-        {
-          "ref": "ans_223d915d-746e-4dbd-b52b-d7656eca3fb2",
-          "keyword": "ans_0cec32b4-110a-4a00-8b06-4fba4713357c",
+          "ref": "ans_88d66aff-047f-4837-b8fa-24e863a75fea",
+          "keyword": "ans_d1fce1cb-95b8-41e6-b1c8-d969a5f95ad4",
           "answer": "\n Escribe *inicio* para regresar el menu principal",
           "options": {
             "media": null,
@@ -259,194 +243,13 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "a957e5c0563b0ea863225fb50de1c3f4"
-        },
-        {
-          "ref": "key_7f9504ec-a927-4697-b12c-ffd1f33cb28a",
-          "keyword": [
-            "discord"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "be744c19342592b913373a1f8728649c"
-        },
-        {
-          "ref": "ans_848b518d-3abf-4013-9e2a-352b66f00609",
-          "keyword": "key_7f9504ec-a927-4697-b12c-ffd1f33cb28a",
-          "answer": "🤪 Únete al discord\nhttps://link.codigoencasa.com/DISCORD\n\n*2* Para siguiente paso.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [
-              {
-                "ref": "key_c6652085-3b05-4ea4-964b-3714e7e67bf2",
-                "keyword": [
-                  "2",
-                  "siguiente"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "dbd7d4c0cf9448a3bda6293a6665acae"
-              },
-              {
-                "ref": "ans_bc10c25b-0515-4885-ab85-1cfeca0da158",
-                "keyword": "key_c6652085-3b05-4ea4-964b-3714e7e67bf2",
-                "answer": "📄 Aquí tenemos el flujo secundario",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": false,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": false
-                },
-                "refSerialize": "feb397ecb04025506322d5769f414be2"
-              }
-            ],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "3fceb7365faf494a7fe163b4d8a3e7ff"
-        },
-        {
-          "ref": "key_2a284c97-61d3-42fb-921e-99ec7b17e56c",
-          "keyword": "botones",
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "a964cba710dd696a4f008a486c0872d5"
-        },
-        {
-          "ref": "ans_0a41f33a-bfba-4e8d-a2eb-6df9cbf75beb",
-          "keyword": "key_2a284c97-61d3-42fb-921e-99ec7b17e56c",
-          "answer": "Estos son botones",
-          "options": {
-            "media": null,
-            "buttons": [
-              {
-                "body": "imagen"
-              },
-              {
-                "body": "Inicio"
-              }
-            ],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "ff29107b8786becc6dbeef32ddf1eb44"
+          "refSerialize": "443691988c9cb5a3e6d627c2387e7e04"
         }
       ],
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "229915d15f2edf9406fe00c0b66cbbcb",
-    "from": "573105059541"
-  },
-  {
-    "ref": "6b8e9f58-9e7f-40a9-8188-3f408c3c5967",
-    "keyword": "229915d15f2edf9406fe00c0b66cbbcb",
-    "answer": "3",
-    "options": {},
-    "from": "573105059541",
-    "refSerialize": "7af65864494b12f0f7ef00589f4d3979"
-  },
-  {
-    "ref": "ans_6864f7a9-1ae8-49f4-9971-85eaa221ff22",
-    "keyword": "key_f963e541-2fe5-47a0-9049-6e0c4de46606",
-    "answer": "Aquí encontrarás respuestas a tus preguntas",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "e40ef3ced112fd70e14524c79df2aa47",
-    "from": "573105059541"
-  },
-  {
-    "ref": "ans_b0316db9-fc2d-4682-8d3a-48bc7e1a0a91",
-    "keyword": "ans_6864f7a9-1ae8-49f4-9971-85eaa221ff22",
-    "answer": "Consulta nuestro manual https://ayuda.gestionshop.co",
-    "options": {
-      "media": "https://www.google.com/maps/place/Compraventas+PACTEMOS/@10.444254,-75.517911,14z/data=!4m6!3m5!1s0x8ef625b33b247109:0x8cc7410b2c1c38f8!8m2!3d10.4442544!4d-75.5179115!16s%2Fg%2F11rrvshssj?hl=es-419&entry=ttu",
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "b271cad8511b7d91ca99edb3de497ef6",
-    "from": "573105059541"
-  },
-  {
-    "ref": "ans_66404516-c8fb-46ce-9ee9-be5f2355f540",
-    "keyword": "ans_b0316db9-fc2d-4682-8d3a-48bc7e1a0a91",
-    "answer": "Para recibir asistencia, te recomendamos utilizar el chat de soporte ubicado en la parte inferior derecha de nuestro sistema GestionShop. Puedes acceder a él y realizar tus consultas para obtener ayuda de nuestro equipo",
-    "options": {
-      "media": "https://res.cloudinary.com/dmeolkzir/image/upload/v1686683855/chatBot/Soporte_eykbin.png",
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "cc3ed9795a908ea18a8d0dc7b0fbc48a",
-    "from": "573105059541"
-  },
-  {
-    "ref": "ans_0cec32b4-110a-4a00-8b06-4fba4713357c",
-    "keyword": "ans_66404516-c8fb-46ce-9ee9-be5f2355f540",
-    "answer": "\n Sucurasal https://www.google.com/maps/place/Compraventas+PACTEMOS/@10.444254,-75.517911,14z/data=!4m6!3m5!1s0x8ef625b33b247109:0x8cc7410b2c1c38f8!8m2!3d10.4442544!4d-75.5179115!16s%2Fg%2F11rrvshssj?hl=es-419&entry=ttu",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "26a14f95813f41cbe0c9f3b1419c6a78",
-    "from": "573105059541"
-  },
-  {
-    "ref": "ans_223d915d-746e-4dbd-b52b-d7656eca3fb2",
-    "keyword": "ans_0cec32b4-110a-4a00-8b06-4fba4713357c",
-    "answer": "\n Escribe *inicio* para regresar el menu principal",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "a957e5c0563b0ea863225fb50de1c3f4",
+    "refSerialize": "4669791d829c77a6cf9b7d6bd760d6dc",
     "from": "573105059541"
   }
 ]

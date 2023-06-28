@@ -38,10 +38,7 @@ const flowSoporteHijo = addKeyword("2")
   );
 
 const flowContable = addKeyword("2").addAnswer(
-  [
-    "👉 *1* Para enviar soporte de pago",
-    "👉 *2* Para solicitar reenvio de factura",
-  ],
+  ["1️⃣ Para enviar soporte de pago", "2️⃣ Para solicitar reenvio de factura"],
   null,
   null,
   [flowContableHijo, flowSoporteHijo]
@@ -84,7 +81,7 @@ const flowComercial = addKeyword(["1"])
   )
   .addAnswer([
     `¡Gracias! En breve serás atendido por uno de nuestros asesores. ¿Hay algo más en lo que pueda ayudarte?`,
-    "\nTe invito a saber más de nosotros https://gestionshop.co",
+    "\nTe invito a conocer más de nosotros https://gestionshop.co",
   ]);
 
 const flowPrincipal = addKeyword([
@@ -94,6 +91,8 @@ const flowPrincipal = addKeyword([
   "ole",
   "alo",
   "ola",
+  "hoka",
+  "hi",
   "buenos dias",
   "buenas tardes",
   "hola, buenos dias",
@@ -108,11 +107,10 @@ const flowPrincipal = addKeyword([
   ])
   .addAnswer(
     [
-      "Te comparto las siguientes opciones de atención \n",
-      "👉 *1* Para asesoría comercial",
-      "👉 *2* Para atención en el área contable",
-      "👉 *3* Para atención al cliente (soporte)\n",
-      "Escribe el numero de la opción seleccionada",
+      "Para poder ayudarte, escoge una de la siguientes opciones de atencion escribiendo el numero\n",
+      "1️⃣ Para asesoría comercial",
+      "2️⃣ Para atención en el área contable",
+      "3️⃣ Para atención al cliente (soporte)\n",
     ],
     null,
     null,
