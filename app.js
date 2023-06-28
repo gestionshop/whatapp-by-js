@@ -102,7 +102,7 @@ const flowPrincipal = addKeyword([
   "hila",
 ])
   .addAnswer([
-    "👋🏼 Hola bienvenid@ a *GestionShop*\n",
+    "👋🏼 Hola bienvenid@ a *GestionShop* El software ideal para administrar almacenes de compraventa\n",
     "Soy GestiBot 🔮 tu asesor virtual",
   ])
   .addAnswer(
