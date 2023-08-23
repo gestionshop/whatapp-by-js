@@ -5,9 +5,14 @@ const {
   addKeyword,
 } = require("@bot-whatsapp/bot");
 
-const QRPortalWeb = require("@bot-whatsapp/portal");
+// const QRPortalWeb = require("@bot-whatsapp/portal");
 const BaileysProvider = require("@bot-whatsapp/provider/baileys");
 const JsonFileAdapter = require("@bot-whatsapp/database/json");
+const bodyParser = require("body-parser");
+
+const express = require("express");
+const app = express();
+app.use(bodyParser.json());
 
 /**
  * Aqui declaramos los flujos hijos, los flujos se declaran de atras para adelante, es decir que si tienes un flujo de este tipo:
@@ -129,7 +134,50 @@ const main = async () => {
     database: adapterDB,
   });
 
-  QRPortalWeb();
+  /**
+   * Enviar mensaje con metodos propios del provider del bot
+   */
+  app.post("/send-message-bot-media", async (req, res) => {
+    const { phone, mediaUrl, message } = req.body;
+    await adapterProvider.sendMedia(`${phone}@c.us`, mediaUrl, message );
+    res.send({ data: "WhatsApp imagen enviado!" });
+  });
+
+  app.post("/send-message-bot-pdf", async (req, res) => {
+    const { phone, mediaUrl } = req.body;
+    await adapterProvider.sendFile(`${phone}@c.us`, mediaUrl);
+    res.send({ data: "WhatsApp pdf enviado!" });
+  });
+
+  // app.use(sendTextRouter) //Se ejecuta el bot a cada instante
+  app.post("/send-message-bot-text", async (req, res) => {
+    const { phone, message } = req.body;
+    await adapterProvider.sendText(`${phone}@c.us`, message);
+    res.send({ data: "WhatsApp texto enviado!" });
+  });
+  /**
+   * Fin de api whatsapp
+   */
+
+  // Ruta para servir archivos estáticos
+  app.use(express.static("public"));
+
+  // Ruta de inicio
+  app.get("/", (req, res) => {
+    res.sendFile(__dirname + "/public/index.html");
+  });
+
+  app.get("/static/bot.qr.png", (req, res) => {
+    res.sendFile(__dirname + "/bot.qr.png");
+  });
+
+  // Iniciar el servidor
+  const port = process.env.PORT || 3003;
+  app.listen(port, () => {
+    console.log(`Servidor iniciado en http://localhost:${port}`);
+  });
+
+  // QRPortalWeb();
 };
 
 main();
